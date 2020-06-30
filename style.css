@@ -263,3 +263,125 @@ margin: 0;
 .copyright {
     margin: 0;
 }
+
+
+@media (max-width: 800px) {
+
+    .nav-links-list-item{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: auto 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        background: rgb(237,54,125);
+    background: linear-gradient(90deg, rgba(237,54,125,1) 0%, rgba(241,238,40,1) 100%);
+    }
+
+    .section-heading {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .section-heading-subtitle {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 0;
+
+    }
+
+    .projects-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-top: 0px;
+        padding-bottom: 80px;
+        flex-wrap: wrap;
+
+    }
+
+    .project-category {
+        flex: 0 0 100%;
+        text-align: center;
+        padding-bottom: 0;
+        font-size: 1.4em;
+        margin-left: 11%;
+    }
+
+    .project-tile {
+        display: flex;
+        flex-direction: column;
+        border-radius: 3px;
+        width: 100%;
+        margin-left: 13%;
+    }
+
+
+    .project-image {
+        width: 100%;
+        height: 350px;
+        border-radius: 6px;
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
+    h4 {
+
+        font-size: 1em;
+
+    }
+
+    #data-analysis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 80px;
+        margin-right: 0;
+    }
+    #data-analysis-project-tile {
+        width: 80%;
+    }
+    #ipl-category {
+        margin-left: 1%;
+    }
+    #ipl-image {
+        width: 90%;;
+        height: 300px;
+    }
+
+    #ipl-subtitle {
+        width: 76%;
+    }
+
+    #contact-heading {
+        font-size: 2em;
+    }
+
+    #contact-subtitle {
+        all: initial;
+        margin-bottom: 15px;
+        font-family: 'Lobster', cursive;
+        font-size: 1em;
+        text-align: center;
+    }
+
+
+    .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      margin: 25px;
+      margin-top: 50px;
+    }
+}
