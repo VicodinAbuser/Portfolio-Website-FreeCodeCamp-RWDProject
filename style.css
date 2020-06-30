@@ -240,6 +240,10 @@ footer {
         text-align: center;
     }
 
+    .nav-links:hover {
+        background-color: #fa1616;
+    }
+
     #projects {
         display: flex;
         flex-direction: column;
