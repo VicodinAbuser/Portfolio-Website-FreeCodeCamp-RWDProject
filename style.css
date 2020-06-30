@@ -233,7 +233,7 @@ footer {
 @media (max-width: 800px) {
     .nav-links-list-item {
         display: inline-block;
-        width: 40px;
+        width: 60px;
         height: 40px;
         margin: auto 20px;
         padding-top: 20px;
