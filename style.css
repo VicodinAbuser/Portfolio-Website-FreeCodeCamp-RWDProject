@@ -1,0 +1,265 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    /*font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Satisfy', cursive;*/
+    font-family: 'Lobster', cursive;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+#nav-links {
+    position: absolute;
+    right: 2%;
+    color: white;
+}
+
+#nav-links-list {
+    justify-content: space-between;
+    margin: 0;
+    height: 60px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-links-list-item{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: auto 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.nav-links-list-item:hover {
+    background-color: #fa1616;
+}
+
+#welcome-section {
+    /*background-image: linear-gradient(red, blue);
+    background-color: black;*/
+    background: rgb(234,216,125);
+    background: linear-gradient(90deg, rgba(234,216,125,1) 0%, rgba(115,246,240,1) 100%);
+    color: black;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+hr {
+    border: 0px dotted black;
+    border-top: none;
+    margin: 0;
+    width: 4%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    background: rgb(237,54,125);
+background: linear-gradient(90deg, rgba(237,54,125,1) 0%, rgba(241,238,40,1) 100%);
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.section-heading-subtitle {
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 0;
+
+}
+
+.projects-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+
+}
+
+.project-category {
+    flex: 0 0 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2.1em;
+}
+
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.project-tile:hover {
+    box-shadow: 2px 2px 20px 4px black;
+}
+
+.project-image {
+    width: 400px;
+    height: 450px;
+    border-radius: 6px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+    /*background-color: black;*/
+    background: rgb(20,4,1);
+background: linear-gradient(90deg, rgba(20,4,1,0.9223039557619923) 100%, rgba(37,37,32,1) 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+#web-dev {
+    /*background: rgb(243,170,26);
+    background: linear-gradient(90deg, rgba(243,170,26,1) 22%, rgba(149,44,163,1) 92%, rgba(149,44,163,1) 92%);
+    background: rgb(37,22,156);
+    background: linear-gradient(90deg, rgba(37,22,156,1) 0%, rgba(60,206,225,1) 100%);
+    background: rgb(101,94,233);
+background: linear-gradient(90deg, rgba(101,94,233,1) 0%, rgba(38,230,234,1) 100%);
+background: rgb(54,237,225);
+background: linear-gradient(90deg, rgba(54,237,225,1) 0%, rgba(103,241,92,1) 100%);*/
+}
+
+#python-dev {
+    /*background: rgb(52,46,156);
+    background: linear-gradient(90deg, rgba(52,46,156,1) 0%, rgba(0,212,255,1) 0%, rgba(44,44,163,1) 100%);*/
+}
+
+#data-analysis {
+    /*background: rgb(37,22,156);
+    background: linear-gradient(90deg, rgba(37,22,156,1) 0%, rgba(60,206,225,1) 100%);
+    background: rgb(101,94,233);
+    background: linear-gradient(90deg, rgba(101,94,233,1) 0%, rgba(38,230,234,1) 100%);*/
+
+}
+
+#ipl-image {
+    width: 800px;
+    height: 500px;
+}
+
+#data-analysis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 120px;
+}
+
+
+#contact-me {
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29,188,135);
+background: linear-gradient(90deg, rgba(29,188,135,1) 0%, rgba(41,32,200,1) 100%);
+}
+
+#contact-heading {
+    font-size: 3em;
+}
+
+#contact-subtitle {
+    all: initial;
+    margin-bottom: 15px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  /*opacity: 0.85;*/
+  box-shadow: 1px 1px 10px 1px red;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;/*#3B5998;*/
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: black;/*#55ACEE;*/
+  color: white;
+}
+
+.fa-github{
+    background: black;/*#55ACEE;*/
+    color: white;
+}
+
+.fa-linkedin {
+    background: black;/*#55ACEE;*/
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background: rgb(29,188,135);
+background: linear-gradient(90deg, rgba(29,188,135,1) 0%, rgba(41,32,200,1) 100%);
+color: white;
+margin: 0;
+}
+
+.copyright {
+    margin: 0;
+}
