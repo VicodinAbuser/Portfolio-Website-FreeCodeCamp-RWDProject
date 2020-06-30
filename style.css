@@ -240,9 +240,7 @@ footer {
         text-align: center;
     }
 
-    .nav-links-list-item:hover {
-        color: red;
-    }
+
 
     #projects {
         display: flex;
